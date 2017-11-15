@@ -7,10 +7,5 @@ handlers:
   static_files: public/\1
   upload: public/(.*)
 
-- url: /
-  static_files: public/index.html
-  upload: public/index.html
-
-- url: /index\.html
-  static_files: public/index.html
-  upload: public/index.html
+- url: /.*
+  script: main.app
