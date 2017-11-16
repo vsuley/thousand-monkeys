@@ -8,4 +8,4 @@ handlers:
   upload: public/(.*)
 
 - url: /.*
-  script: main.app
+  script: core.main.app
